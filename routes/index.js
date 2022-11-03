@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 var mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://Khoa21donga:Khoa21dongaKhoa21dongaKhoa21donga@cluster0.o9ivn6p.mongodb.net/test2?retryWrites=true&w=majority",
+  "mongodb+srv://Khoa21donga:Khoa21dongaKhoa21dongaKhoa21donga@cluster0.o9ivn6p.mongodb.net/test?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
